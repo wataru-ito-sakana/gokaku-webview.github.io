@@ -7,7 +7,7 @@
 }
 
 /* ダークモード用の色を設定 */
-:root.dark {
+:root[theme="dark"] {
     --main-text: #ffffff;
     --main-bg: #1C1C1E;
     --sub-text: #DBDBE0;
