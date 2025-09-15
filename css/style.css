@@ -1,0 +1,39 @@
+/* ライトモード(通常)用の色を設定 */
+:root {
+    --main-text: #333333;
+    --main-bg: #ffffff;
+    --sub-text: #999999;
+    --link-color: #FF196A;
+}
+
+/* ダークモード用の色を設定 */
+:root[theme="dark"] {
+    --main-text: #ffffff;
+    --main-bg: #1C1C1E;
+    --sub-text: #DBDBE0;
+    --link-color: #FF196A;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+    color: var(--main-text);
+    background: var(--main-bg);
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 1.2em;
+}
+
+a {
+    color: var(--link-color)
+}
